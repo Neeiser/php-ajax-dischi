@@ -19,16 +19,18 @@
         </div>
     </header>
     <main>
-
-    
-    <?php foreach($arr_dischi as $disco) { ?>
-        <div class="music-box">
-            <img src="<?= $disco['poster']?>" alt="">
-            <h3><?= $disco['title']?></h3>
-            <p><?= $disco['author'] ?></p>
-            <p><?= $disco['year'] ?></p>
+        <div class="album-container">
+            <?php foreach($arr_dischi as $disco) { ?>
+                <div class="music-box">
+                    <img src="<?= $disco['poster']?>" alt="">
+                    <h3><?= $disco['title']?></h3>
+                    <p><?= $disco['author'] ?></p>
+                    <p><?= $disco['year'] ?></p>
+                </div>
+            <?php } ?>
         </div>
-    <?php } ?>
+    
+    
     
     </main>
 </body>
