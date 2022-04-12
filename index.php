@@ -7,6 +7,7 @@
     <title>PHP Dischi</title>
 </head>
 <body>
-    
+    <?php 
+    ?>
 </body>
 </html>
