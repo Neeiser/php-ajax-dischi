@@ -8,6 +8,8 @@
 </head>
 <body>
     <?php
+        include __DIR__ . '/components/api/api.php';
+        echo $arrdischi;
     ?>
 </body>
 </html>
