@@ -8,11 +8,15 @@ header{
 background-color: lightblue;
 }
 
-img{
+header img{
     height: 50px;
     width: 50px;
 }
 
 .music-box{
     padding: 20px 0px;
+}
+
+.music-box img{
+    height: 200px;
 }
