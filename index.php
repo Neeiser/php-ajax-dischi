@@ -23,7 +23,7 @@
     
     <?php foreach($arr_dischi as $disco) { ?>
         <div>
-            <p><?php $disco['title'] ?></p>
+            <?php echo $disco['title'] ?>
             <small><?php $disco['author'] ?></small>
         </div>
     <?php } ?>
