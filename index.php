@@ -22,8 +22,8 @@
 
     
     <?php foreach($arr_dischi as $disco) { ?>
-        <div>
-            <?php echo $disco['title'] ?>
+        <div class="music-box">
+            <p><?php echo $disco['title']?></p>
             <small><?php $disco['author'] ?></small>
         </div>
     <?php } ?>
