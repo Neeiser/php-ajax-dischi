@@ -1,3 +1,7 @@
+<?php
+    include __DIR__ . '/components/api/api.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,10 +17,13 @@
             <img src="./components/style/img/spotify-logo.png" alt="">
         </div>
     </header>
+    <main>
 
-    <?php
-        include __DIR__ . '/components/api/api.php';
-        echo $arrdischi;
-    ?>
+    
+    <?php foreach($arr_dischi as $disco) { ?>
+        <p><?php $disco['title'] ?></p>
+    <?php } ?>
+    
+    </main>
 </body>
 </html>
