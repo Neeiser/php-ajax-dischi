@@ -24,7 +24,7 @@
     <?php foreach($arr_dischi as $disco) { ?>
         <div class="music-box">
             <p><?php echo $disco['title']?></p>
-            <small><?php $disco['author'] ?></small>
+            <small><?= $disco['author'] ?></small>
         </div>
     <?php } ?>
     
