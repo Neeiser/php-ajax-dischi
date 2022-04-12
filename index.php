@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP Dischi</title>
+    <!-- Link al CSS -->
     <link rel="stylesheet" href="./components/style/style.css">
 </head>
 <body>
@@ -21,7 +22,10 @@
 
     
     <?php foreach($arr_dischi as $disco) { ?>
-        <p><?php $disco['title'] ?></p>
+        <div>
+            <p><?php $disco['title'] ?></p>
+            <small><?php $disco['author'] ?></small>
+        </div>
     <?php } ?>
     
     </main>
