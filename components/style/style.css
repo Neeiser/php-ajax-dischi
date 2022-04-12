@@ -13,17 +13,26 @@ header img{
     width: 50px;
 }
 
+
+main{
+    width: 100%;
+}
+
 .album-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .music-box{
-    padding: 20px 0px;
+    padding: 20px 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: calc(100% / 5);
+    background-color: #e6adad;
 }
 
 .music-box img{
